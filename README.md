@@ -15,3 +15,7 @@ Testing github features...
   The url should be one that you have commit access to, but this 
   obviously breaks other people trying to clone the repo, so there 
   probably has to be some sort of warning for this...
+
+  Actually, it looks like it might be better just to `git clone` into a 
+  subdirectory (which is put into `.gitignore`) to avoid having to keep 
+  the parent up-to-date with the submodule via extra commits.
